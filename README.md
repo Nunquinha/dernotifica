@@ -1,14 +1,15 @@
 # DER Notifica
 
-Aplicativo instalável de campo e Central de Alertas CCO no padrão DER.
+Aplicativo instalável: https://nunquinha.github.io/dernotifica/
 
-- Aplicativo: https://nunquinha.github.io/dernotifica/
-- Central CCO: https://nunquinha.github.io/dernotifica/cco.html
+Central exclusiva: https://nunquinha.github.io/dernotifica/cco.html
 
-Apenas telas e bibliotecas públicas são hospedadas aqui. Notificações, fotos, assinaturas, usuários autorizados e códigos de acesso ficam no servidor privado Google Apps Script / Drive / Planilhas.
+Somente telas e bibliotecas públicas ficam aqui. Documentos, fotos, assinaturas e permissões ficam em servidor privado Google Apps Script / Drive / Planilhas. A entrada exige e-mail autorizado e código temporário enviado à própria caixa de e-mail.
 
-O acesso usa e-mail autorizado e código temporário. Após entrar com sinal, aguarde o preparo offline e instale pelo navegador. Reabra com conexão para sincronizar pendências. Nunca limpe os dados do navegador com registros pendentes.
+Abra com internet, entre e aguarde o preparo offline. Android: Chrome > Instalar aplicativo. iPhone/iPad: Compartilhar > Adicionar à Tela de Início. Computador: instalar pelo navegador. Sincronize antes de limpar dados ou desinstalar.
 
-PDF, impressão, compartilhamento e Excel exigem as permissões correspondentes. O CCO confirma ciência explicitamente. GPS informa latitude, longitude e precisão estimada; o Maps usa o ponto capturado.
+Notificação de acesso, notificação de ocupação e embargo. Resultado da visita inclui lindeiro ausente e não localizado. PDF, impressão e Excel respeitam permissões. O CCO recebe fotos, GPS e telefone; confirma ciência e registra o atendimento. O Maps abre as coordenadas capturadas; a precisão exibida é uma estimativa do aparelho.
 
-Os modelos e contatos precisam ser conferidos pela unidade antes da emissão. Assinatura manuscrita em tela não é certificação ICP-Brasil. Impressão Bluetooth depende do serviço de impressão do aparelho e da compatibilidade da impressora.
+Confira os modelos e contatos da unidade antes de emitir. A assinatura na tela não é certificação ICP-Brasil. Impressora Bluetooth depende do serviço de impressão compatível do aparelho. Envio de e-mail não comprova recebimento. WhatsApp/SMS usam o compartilhamento do aparelho nesta versão.
+
+Código do servidor mantido no repositório privado der-notifica. Não versionar dados operacionais ou segredos. config.js contém apenas o endereço público da API, que valida cada sessão e permissão no servidor.
